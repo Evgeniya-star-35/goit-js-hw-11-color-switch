@@ -1,0 +1,16 @@
+* {
+  text-align: center;
+}
+button {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', sans-serif;
+  font-weight: bold;
+  font-size: 40px;
+  padding: 10px 15px;
+  margin-right: 20px;
+  margin-top: 40px;
+  cursor: pointer;
+  border: 5px solid rgba(37, 37, 167, 0.74);
+  border-radius: 7px;
+  color: rgb(46, 129, 197);
+  background-color: rgb(111, 195, 111);
+}
