@@ -8,8 +8,8 @@ const colors = [
 ];
 
 const refs = {
-  btnStart: document.querySelector('button[data-action="start"]'),
-  btnStop: document.querySelector('button[data-action="stop"]'),
+  btnStart: document.querySelector('[data-action="start"]'),
+  btnStop: document.querySelector('[data-action="stop"]'),
 };
 const changeBtnStatus = (remove, add) => {
   refs.btnStart.disabled = add;
